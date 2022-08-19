@@ -2,7 +2,7 @@
 Docker container with valgrind, vim, nano, gcc and make to test memory leaks in 42 made projects
 
 ```bash
-$ https://github.com/diserran/Dockgrind_42.git
+$ git clone https://github.com/diserran/Dockgrind_42.git
 
 $ cd Dockgrind_42
 
