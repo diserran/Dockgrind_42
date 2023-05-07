@@ -11,7 +11,7 @@ $ docker build -t $(whoami)/valgrind .
 #Go to the project folder where you want to execute valgrind 
 $ cd PROJECT_DIRECTORY
 #This command runs the docker container, mounting the current folder into it
-$ docker run -d -it -v `pwd`:/valgrind/ --name $USER-valgrind $(whoami)/valgrind
+$ docker run -d -it -v $(pwd):/valgrind/ --name $USER-valgrind $(whoami)/valgrind
 #Use this command to enter in the container using a bash shell
 $ docker exec -it $USER-valgrind bash
 
